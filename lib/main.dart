@@ -15,7 +15,9 @@ import 'modules/on_boarding/on_boarding_screen.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   //handling red Screen
-  ErrorWidget.builder = (FlutterErrorDetails details) => Container();
+  ErrorWidget.builder = (FlutterErrorDetails details) => Center(
+        child: Text("Please, close app and open it again to refresh settings"),
+      );
 
   Bloc.observer = MyBlocObserver();
   DioHelper.init();
