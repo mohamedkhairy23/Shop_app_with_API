@@ -1,2 +1,1 @@
-# shop_application
-In This project, it is used API and it was tested with the Postman program. It is used with state management "Bloc". It is added  "DIO package" for handling API requests. There is form validation. It is used the bottom navigation bar to navigate between screens. and It is used as a search screen where you can search for any product existing in API. It used the favorites screen and that screen was related to the products screen which you can click on the "favorite button" this product you can add or remove from the favorites screen simultaneously as what does happen when it used real-time database.
+
